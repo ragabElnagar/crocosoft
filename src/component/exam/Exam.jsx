@@ -52,6 +52,8 @@ const Exam = () => {
         <>
           <Typography variant="h2">Title :{questions?.title}</Typography>
           <br></br>
+          <Typography variant="h4">Title :{questions?.description}</Typography>
+          <br></br>
           <Typography variant="h2">Your Score is :{score}</Typography>
           <br></br>
 
