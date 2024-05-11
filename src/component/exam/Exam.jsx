@@ -50,10 +50,17 @@ const Exam = () => {
     <Container>
       {showResult ? (
         <>
+          <Typography variant="h2">Title :{questions?.title}</Typography>
+          <br></br>
           <Typography variant="h2">Your Score is :{score}</Typography>
           <br></br>
-          <Button component={Link} to="/" variant="contained">
+
+          <Button className="button" component={Link} to="/" variant="contained">
             Back to Home
+          </Button>
+
+          <Button className="button" component={Link} to="https://www.youtube.com/watch?v=e6EGQFJLl04" variant="contained">
+          Listen to music
           </Button>
         </>
       ) : (
