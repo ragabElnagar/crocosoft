@@ -1,0 +1,19 @@
+.question{
+    width: 80%;
+}
+.answer{
+    width: 50%;
+}
+
+.answerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectAnswer{
+    margin: 0 20px;
+}
+
+.button{
+    margin: 10px;
+}
